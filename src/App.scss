@@ -1,0 +1,100 @@
+// Variables
+$primary-color: #1B88F4;
+
+.button-primary {
+    font: {
+        weight: 400;
+        size: 16px;
+    }
+    text: {
+        align: center;
+        decoration: none;
+    }
+
+    width: 100%;
+    background-color: $primary-color;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    line-height: 24px;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    white-space: nowrap;
+    &:active {
+        background-color: blue;
+    }
+}
+
+.badge {
+    // width: 136px;
+    position: absolute;
+    transform: translateY(-27px) translateX(-25px);
+    height: 34px;
+    line-height: 34px;
+    padding-inline: 8px;
+    background-color: #FF7724;
+    border-radius: 0px 8px 8px 0px;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+
+}
+
+.item-number {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+transform: translateX(-42px) translateY(20px);
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.rating {
+    width: 135px;
+    height: 118px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: #F3F9FF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(-10px);
+
+    p:first-child {
+        font-weight: 400;
+        font-size: 32px;
+        color: #074786;
+    }
+
+    p:nth-child(2) {
+        font-weight: 400;
+        font-size: 14px;
+        color: #074786;
+    }
+
+
+    .fivestar {
+        display: flex;
+        justify-content: center;
+    
+       
+        svg {
+            width: 20px;
+            height: 20px;
+            color: orange;
+        }
+    
+    }
+}

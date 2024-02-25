@@ -1,0 +1,29 @@
+
+.header {
+    background-color: #212731;
+    color: #D1D6DA;
+    font-size: 14px;
+    .headerSection {
+        max-width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        height: 64px;
+
+        input {
+            padding: 5px 10px;
+            border-radius: 8px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+
+            div {
+                cursor: pointer;
+            }
+        }
+    }
+}
